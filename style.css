@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+    
+    background-color: #555;
+    background-image: url(images/pic02.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+    
+   
+
+}h1{
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    font-size: 80px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #555;
+    padding: 0.5em;
+    text-align: right;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Hide all sections by default */
+.portfolio-section {
+    display: none;
+}
+
+/* Show the targeted section */
+.portfolio-section:target {
+    display: block;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
+
+.portfolio-section p{
+    
+    text-align: center;
+}
+.portfolio-section h2{
+    
+    text-align: center;
+    font-size: 40px;
+    
+}
+
