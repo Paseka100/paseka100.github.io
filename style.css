@@ -69,12 +69,12 @@ footer {
     display: none;
 }
 
-/* Show the targeted section */
+
 .portfolio-section:target {
     display: block;
 }
 
-/* Responsive Styling */
+
 @media (max-width: 600px) {
     nav a {
         display: block;
@@ -100,7 +100,7 @@ footer {
     font-size: 30px;
 }
 .portfolio-section h2{
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
     text-align: right;
 
