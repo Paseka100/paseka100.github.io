@@ -39,7 +39,7 @@
         
     </section>
     <section id="about" class="portfolio-section">
-        <h3>aspiring web developer who believes in dedication <br>and<br> perseverance<br></h3>
+        <h3>aspiring web developer who believes in <br>dedication <br>and<br> perseverance<br></h3>
         <p></p>
     </section>
     <section id="education" class="portfolio-section">
@@ -95,6 +95,18 @@ document.getElementById('menu-toggle').addEventListener('click',function(){
         menu.style.display="none"
     }
 })
+
+
+
+
+    var menuLinks = document.querySelectorAll('.menu-list a');
+    menuLinks.forEach(function(link) {
+        link.addEventListener('click', function() {     
+            var menu = document.getElementById('menu');
+            menu.style.display = "none";
+        });
+    });
+
 
 
     </script>
