@@ -17,8 +17,8 @@ body,p{
     margin: 0;
     padding: 0;
     
-    background-color: #555;
-    background-image: url(images/pic02.jpg);
+    background-color: black;
+   
     background-size: cover;
     background-position: left top ;
     
@@ -27,6 +27,13 @@ body,p{
    
 
 }
+.img{
+    display:flex;
+    justify-content: flex-start;
+ 
+    
+}
+
 
 
  
