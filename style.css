@@ -83,7 +83,7 @@ body {
         text-align: right;
         padding: 1em;
        
-     width: 100%;
+     width:fit-content
       }
       nav ul {
         list-style: none;
