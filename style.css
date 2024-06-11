@@ -246,11 +246,12 @@ footer p {
   flex-basis: 50%;
   margin: 20px;
 }
-h1 {
+.tt {
   text-align: center;
   color: orange;
   font-size: 40px;
-  margin-top: 40px;
+  margin-top:0;
+  margin:4rem
 }
 
 
