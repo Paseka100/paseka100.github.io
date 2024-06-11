@@ -211,9 +211,7 @@ footer p {
 #about {
   background-color: purple;
 }
-#contact {
-  background-color: purple;
-}
+
 #education {
   background-color: purple;
 }
@@ -225,10 +223,7 @@ footer p {
 }
 
 #skills {
-  background-image: url(/images.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+ background-color: purple;
 }
 #contact {
   background-image: url(images/banner.jpg);
@@ -334,6 +329,18 @@ footer p {
   margin: 4rem auto 2rem;
   padding: 0.5rem;
 }
+.about-containers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+ 
+  margin: 10rem auto 2rem;
+  padding: 0.5rem;
+  
+}
+
 
 .heading{
 margin-top: -25rem;;
