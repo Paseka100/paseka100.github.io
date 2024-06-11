@@ -222,14 +222,8 @@ footer p {
   color: white;
 }
 
-#skills {
+#skills,#contact {
  background-color: purple;
-}
-#contact {
-  background-image: url(images/banner.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .portfolio-section {
