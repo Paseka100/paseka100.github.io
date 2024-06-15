@@ -24,12 +24,12 @@ a,
 nav,
 .nav-links {
   display: flex;
-  height: 20vh;
+margin-top: 0;
 }
 
 nav {
  position: fixed;
- 
+ margin-top: -2rem;
 }
 
 .nav-links {
