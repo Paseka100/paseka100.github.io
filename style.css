@@ -24,18 +24,18 @@ a,
 nav,
 .nav-links {
   display: flex;
+  height: 20vh;
 }
 
 nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
+ position: fixed;
+ 
 }
 
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 a {
