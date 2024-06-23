@@ -152,11 +152,15 @@ section {
 
 .section__text p {
   font-weight: 500;
+
 }
 
 .section__text__p1 {
+  margin-top: 3rem;
   text-align: center;
   color: white;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .section__text__p2 {
