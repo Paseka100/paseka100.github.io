@@ -352,6 +352,19 @@ footer p {
   padding: 0.5rem;
 
 }
+.about_p {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+ 
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+
+}
 .about-container{
   display: flex;
   justify-content: center;
