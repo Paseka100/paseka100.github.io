@@ -1,146 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>website Portfolio</title>
-	<link rel="stylesheet" href="style.css">
-	<style>
-	
-	</style>
-</head>
-<body>
-	<button id="mobile-menu-toggle">&#9776; Menu</button>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>website Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <button id="mobile-menu-toggle">&#9776; Menu</button>
+
     <nav id="mobile-nav">
-        <ul class="nav-linkss">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <ul class="nav-linkss">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+		<li><a href="#projects">projects</a></li>
+
+      </ul>
     </nav>
-	<nav id="desktop-nav">
-		
-		<div>
-		  <ul class="nav-links">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#skills">Skills</a></li>
-			<li><a href="#contact">Contact</a></li>
-		  </ul>
-		</div>
-	  </nav>
-	
-	<div class="portfolio-sections">
-		<section id="home" class="portfolio-section">
-	
-			<div class="section__text">
-		
-				<p class="section__text__p1">Hi there my name is,</p>
-				<h1 class="title">Paseka Mogoto</h1>
-			   <p class="section__text__p2">I am an aspiring web developer</p>
-			  
-			</div>
-			<div class="image-containers">
-			
-					<img src="images/Photofrompaseka.jpg" alt="GitHub Icon">
-				
-			</div>
-		</section>
-		<section id="about" class="portfolio-section">
-			<h1 class="tt">about</h1>
-			
-				<p class="about_pp">I am driven by hard work, persistence, and grit as I carve my path in web development and entrepreneurship.<br> My aim is to become a skilled web developer and build successful ventures.<br> Every day brings opportunities for growth and innovation, and I tackle each challenge with determination and a hunger for success.<br>
-					I believe that dedication and perseverance are crucial for unlocking limitless potential. My journey is marked by a relentless pursuit of excellence and a passion for creating impactful solutions that redefine the digital experience.<br>
-					<div class="about-container">
-						<a  class="white" href="https://drive.google.com/file/d/1MJJx3H6LUQmmetD4I53Oxx0kDt2ICXhS/view?usp=sharing" target="_blank">
-							view  my CV here
-						</a>
-					</div>
-					
-			
-			</section>
-			<section id="skills" class="portfolio-section">
-				<h1 class="tt">skills</h1>
-				<div class="image-container">
-					<p class="about_p">git</p>
-				</div>
-				<div class="image-container">
-					<p class="about_p">html,css</p>
-				  </div>
-				  <div class="image-container">
-					<p class="about_p">postgressql</p>
-				</div>
-				<div class="image-container">
-					<p class="about_p">docker</p>
-				</div>
-				<div class="image-container">
-					<p class="about_p">jasmine</p>
-				</div>
-				  <div class="image-container">
-					<p class="about_p">javascript</p>
-				  </div>
-				  
-				
-			
-			
-				
-			</section>
-		<section id="contact" class="portfolio-section">
-			<h1 class="tt">contact</h1>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
+    <div class="portfolio-sections">
+      <section id="home" class="portfolio-section">
+        <div class="section__text">
+          <p class="section__text__p1">Hi there my name is,</p>
+          <h1 class="title">Paseka Mogoto</h1>
+          <p class="section__text__p2">I am an aspiring web developer</p>
+        </div>
+        <div class="image-containers">
+          <img src="images/Photofrompaseka.jpg" alt="GitHub Icon" />
+        </div>
+      </section>
+      <section id="about" class="portfolio-section">
+        <h1 class="tt">about</h1>
 
-			<div class="image-container">
-				<a href="https://www.linkedin.com/in/paseka-shiba-mogoto-40485027a/" target="_blank">
-					<img src="https://img.icons8.com/fluent/96/000000/linkedin.png" alt="LinkedIn Icon">
-				</a>
-			</div>
-			<div class="image-container">
-				<a href="mailto:Pasekamogot@gmail.com" target="_blank">
-					<img src="https://img.icons8.com/color/96/000000/gmail.png" alt="Gmail Icon">
-				</a>
-			</div>
-			<div class="image-container">
-				<a href="https://github.com/Paseka100" target="_blank">
-					<img src="https://img.icons8.com/fluent/96/000000/github.png" alt="GitHub Icon">
-				</a>
-			</div>
-			
-		</section>
-		
-		
-		<script>
-			document.addEventListener("DOMContentLoaded", function() {
-				var mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-				var mobileNav = document.getElementById('mobile-nav');
-				var mobileNavLinks = mobileNav.querySelectorAll('.nav-linkss a');
-		
-				// Toggle mobile menu visibility
-				mobileMenuToggle.addEventListener('click', function() {
-					if (mobileNav.style.display === 'block') {
-						mobileNav.style.display = 'none';
-					} else {
-						mobileNav.style.display = 'block';
-					}
-				});
-		
-				// Close mobile menu when a link is clicked
-				mobileNavLinks.forEach(function(link) {
-					link.addEventListener('click', function() {
-						mobileNav.style.display = 'none';
-					});
-				});
-			});
+        <p class="about_pp">
+          I am driven by hard work, persistence, and grit as I carve my path in
+          web development and entrepreneurship.<br />
+          My aim is to become a skilled web developer and build successful
+          ventures.<br />
+          Every day brings opportunities for growth and innovation, and I tackle
+          each challenge with determination and a hunger for success.<br />
+          I believe that dedication and perseverance are crucial for unlocking
+          limitless potential. My journey is marked by a relentless pursuit of
+          excellence and a passion for creating impactful solutions that
+          redefine the digital experience.<br />
+        </p>
 
+        <div class="about-container">
+          <a
+            class="white"
+            href="https://drive.google.com/file/d/1MJJx3H6LUQmmetD4I53Oxx0kDt2ICXhS/view?usp=sharing"
+            target="_blank"
+          >
+            view my CV here
+          </a>
+        </div>
+      </section>
+      <section id="skills" class="portfolio-section">
+        <h1 class="tt">skills</h1>
+        <div class="image-container">
+          <p class="about_p">git</p>
+        </div>
+        <div class="image-container">
+          <p class="about_p">html,css</p>
+        </div>
+        <div class="image-container">
+          <p class="about_p">postgressql</p>
+        </div>
+        <div class="image-container">
+          <p class="about_p">docker</p>
+        </div>
+        <div class="image-container">
+          <p class="about_p">jasmine</p>
+        </div>
+        <div class="image-container">
+          <p class="about_p">javascript</p>
+        </div>
+      </section>
+      <section id="contact" class="portfolio-section">
+        <h1 class="tt">contact</h1>
 
-			
-		</script>
-		
-	
-	
-		
-	</div>
-</body>
+        <div class="image-container">
+          <a
+            href="https://www.linkedin.com/in/paseka-shiba-mogoto-40485027a/"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/fluent/96/000000/linkedin.png"
+              alt="LinkedIn Icon"
+            />
+          </a>
+        </div>
+        <div class="image-container">
+          <a href="mailto:Pasekamogot@gmail.com" target="_blank">
+            <img
+              src="https://img.icons8.com/color/96/000000/gmail.png"
+              alt="Gmail Icon"
+            />
+          </a>
+        </div>
+        <div class="image-container">
+          <a href="https://github.com/Paseka100" target="_blank">
+            <img
+              src="https://img.icons8.com/fluent/96/000000/github.png"
+              alt="GitHub Icon"
+            />
+          </a>
+        </div>
+      </section>
+	<section id="projects" class="portfolio-section">
+    <h1 class="tt">Projects</h1>
+    <div class="projects-container">
+      <div class="image-container">
+          <p class="about_p">
+              Semitone Difference
+          </p>
+      </div>
+      <div class="image-container">
+          <p class="about_p">
+              <a href="https://paseka100.github.io/semitone-differennce/" target="_blank" class="live-link">
+                  view live
+              </a>
+          </p>
+      </div>
+  </div>
+  <div class="projects-container">
+      <div class="image-container">
+          <p class="about_p">
+              APS Calculator
+          </p>
+      </div>
+      <div class="image-container">
+          <p class="about_p">
+              <a href="https://paseka100.github.io/aps_calculator/" target="_blank" class="live-link">
+                  view live
+              </a>
+          </p>
+      </div>
+  </div>
+  
+</section>
 
+      
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+          var mobileNav = document.getElementById("mobile-nav");
+          var mobileNavLinks = mobileNav.querySelectorAll(".nav-linkss a");
+
+          mobileMenuToggle.addEventListener("click", function () {
+            if (mobileNav.style.display === "block") {
+              mobileNav.style.display = "none";
+            } else {
+              mobileNav.style.display = "block";
+            }
+          });
+
+          // Close mobile menu when a link is clicked
+          mobileNavLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+              mobileNav.style.display = "none";
+            });
+          });
+        });
+      </script>
+    </div>
+  </body>
 </html>
